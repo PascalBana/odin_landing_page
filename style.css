@@ -1,0 +1,212 @@
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px 230px;
+    background-color: rgb(27, 27, 27);
+}
+
+.section-one {
+    background-color: #1f2937 ;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 6px 200px 98px;
+    gap: 96px;
+}
+
+header{
+    color: #f9faf8;
+    font-size: 24px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center
+}
+
+.header-links {
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 18px;
+    padding: 0px;
+    list-style: none;
+    gap: 32px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.placeholder, .secondary, .links {
+    color: #e5e7eb;
+}
+
+.hero {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 48px;
+}
+
+.main {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+.sidekick {
+    flex: 1;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6d747e;
+}
+
+.hero-button {
+    padding: 6px 32px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-style: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.logo {
+    font-weight: 700;
+}
+
+/* This is the start of the second section of the landing page */
+
+.section-two {
+    background-color: #ffffff;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 64px;
+    padding: 40px 0px 128px;
+}
+
+.info-title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    flex: 1 1 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.info-section {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 48px;
+}
+
+.square-button {
+    height: 175px;
+    width: 175px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+    background-color: #ffffff;
+}
+
+.info-text {
+    display: flex;
+    flex-flow: row wrap;
+    color: #4b5563;
+    text-align: center;
+}
+
+.button-block {
+    display: flex;
+    max-width: 175px;
+    flex-flow: column wrap;
+    gap: 12px;
+}
+
+/* this is the start of the third section of the landing page */
+
+.section-three {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding: 126px 300px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 200;
+}
+
+.quote-source {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: end;
+}
+
+/* this marks the start of the last section of the landing page */
+
+.section-four {
+    background-color: #ffffff;
+    padding: 112px 200px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box {
+    background-color: #3882f6;
+    display: flex;
+    flex-flow: row nowrap;
+    color: #f9faf8;
+    border-radius: 8px;
+    width: 845px;
+    height: 160px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.cta-text-box {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.cta {
+    font-size: 24px;
+    font-weight: 700;
+} 
+
+.cta-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.cta-button {
+    border: #ffffff solid 2px;
+    background-color: #3882f6;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 8px;
+    color: #ffffff;
+    padding: 6px 24px;
+}
+
+/* This is the beginning of the the footer section */
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0px;
+    font-size: 18px;
+    text-align: center;
+}
